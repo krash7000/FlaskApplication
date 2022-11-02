@@ -1,0 +1,63 @@
+body {
+    background-color: slategrey;
+    text-align: center;
+}
+
+.logo {
+    margin: 12px 2px;
+    justify-content: center;
+
+}
+
+.learning_buttons {
+    display: block;
+
+
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 12px 2px;
+  cursor: pointer;
+  width: 500px;
+}
+
+a {
+  background-color: darkslategrey; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  width: 200px;
+  margin: 10px 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
